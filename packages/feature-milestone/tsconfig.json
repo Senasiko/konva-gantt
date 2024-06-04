@@ -1,0 +1,11 @@
+{
+  "extends": "@konva-gantt/config-typescript/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "declaration": true,
+  },
+  "include": ["./src"],
+  "exclude": ["./node_modules"]
+}

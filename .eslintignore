@@ -1,0 +1,9 @@
+dist
+lib
+scripts
+__tests__
+*.cjs
+*.js
+*.d.ts
+**/*.json
+examples/

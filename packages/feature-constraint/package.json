@@ -1,0 +1,28 @@
+{
+  "name": "@konva-gantt/feature-constraint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@konva-gantt/core": "workspace:*",
+    "dayjs": "^1.11.10",
+    "konva": "^9.2.3",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.9"
+  },
+  "devDependencies": {
+    "@konva-gantt/config-typescript": "workspace:*",
+    "@types/lodash": "^4.14.202",
+    "typescript": "^5.3.2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@konva-gantt/app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@konva-gantt/core": "workspace:*",
+    "@konva-gantt/feature-constraint": "workspace:*",
+    "@konva-gantt/feature-milestone": "workspace:*",
+    "konva": "^9.2.3",
+    "lodash": "^4.17.21",
+    "vue": "^3.3.9"
+  },
+  "devDependencies": {
+    "@konva-gantt/config-typescript": "workspace:*",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.1.3"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@konva-gantt/config-typescript/tsconfig.base.json",
+  "include": ["./src"]
+}

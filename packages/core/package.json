@@ -1,0 +1,51 @@
+{
+  "name": "@konva-gantt/core",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./shapes/*": {
+      "default": "./dist/shapes/*.js",
+      "types": "./dist/shapes/*.d.ts"
+    },
+    "./gantt/*": {
+      "default": "./dist/gantt/*.js",
+      "types": "./dist/gantt/*.d.ts"
+    },
+    "./gantt": {
+      "default": "./dist/gantt/index.js",
+      "types": "./dist/gantt/index.d.ts"
+    },
+    "./styles/*": {
+      "default": "./dist/styles/*.js",
+      "types": "./dist/styles/*.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dayjs": "^1.11.10",
+    "konva": "^9.2.3",
+    "lodash": "^4.17.21",
+    "nanoid": "^5.0.3",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.9"
+  },
+  "devDependencies": {
+    "@konva-gantt/config-typescript": "workspace:*",
+    "@types/lodash": "^4.14.202",
+    "typescript": "^5.3.2"
+  }
+}
