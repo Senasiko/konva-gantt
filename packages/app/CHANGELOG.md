@@ -1,5 +1,14 @@
 # @konva-gantt/app
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies [7e5b41e]
+  - @konva-gantt/core@0.0.2
+  - @konva-gantt/feature-constraint@0.0.2
+  - @konva-gantt/feature-milestone@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes
