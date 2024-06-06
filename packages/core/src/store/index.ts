@@ -1,7 +1,6 @@
 import { defineStore, createPinia } from 'pinia';
 import {
-  computed, createApp, reactive, ref,
-  shallowRef,
+  computed, createApp, reactive, ref
 } from 'vue';
 import dayjs from 'dayjs';
 import _ from 'lodash';
